@@ -1,0 +1,430 @@
+/*arquivo css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: "Mulish";
+}
+
+/*cabeçalho*/
+
+header {
+background-image: url(imagens/Vector.png) ;
+background-repeat: no-repeat;
+width: 100%;
+height: auto;
+}
+
+.header__container {
+  width: 90%;
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.header__logo {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 53px;
+}
+
+.header__logo-imagem {
+  width: 80px;
+}
+
+.header__logo-nome {
+  color: #FD7379;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 28px;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+.header__info-text {
+  width: 50%;
+}
+
+.header__text {
+  font-size: 62px;
+  margin-bottom: 42px;
+  color: #FD7379;
+}
+
+.header__button {
+  background: linear-gradient(135deg, rgba(253, 115, 121, 0.9) 14.58%, #FEA3A7 100%);
+  box-shadow: 0px 0px 15px rgba(253, 115, 121, 0.3);
+  border-radius: 40px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 59px;
+  text-decoration: none;
+}
+
+.header__button:hover {
+  background: white;
+  border: 3px solid #FD7379;
+  color: #FD7379;
+}
+
+.header__ilustracao {
+ width: 50%;
+}
+
+/*Cards*/
+
+.section__container-cards {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 157px;
+}
+
+.section__card {
+  width: calc(33.33% - 20px);
+  border-radius: 20px;
+  height: 222px;
+  box-shadow: 0px 4px 15px rgba(213, 225, 191, 0.2);
+  margin: 0px 10px;
+  display: flex;
+}
+
+#card-laranja {
+  background-color: #FFC385;
+  color: #DD5E00;
+}
+
+#card-verde {
+  background-color: #D5E1BF;
+  color: #72972E;
+}
+
+#card-azul {
+  background-color: #B3E0FF;
+  color: #0477C6;
+}
+
+.section__container {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.section__text-vertical {
+  padding-left: 25px;
+  margin: auto;
+}
+
+.section__card-text {
+font-weight: 900;
+font-size: 30px;
+line-height: 32px;
+padding-bottom: 40px;
+}
+
+.section__card-button {
+  box-shadow: 0px 0px 15px rgba(221, 94, 0, 0.3);
+  border-radius: 40px;
+  padding: 10px 54px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+#button-laranja {
+  background: #DD5E00;
+}
+
+#button-laranja:hover {
+  background: white;
+  border: 3px solid #DD5E00;
+  color: #DD5E00;
+}
+
+#button-verde {
+  background: #72972E;
+}
+
+#button-verde:hover {
+  background: white;
+  border: 3px solid #72972E;
+  color: #72972E;
+}
+
+#button-azul {
+  background: #0477C6;
+}
+
+#button-azul:hover {
+  background: white;
+  border: 3px solid #0477C6;
+  color: #0477C6;
+}
+
+.section__card-image {
+ position: relative;
+top: -10px;
+bottom: -10px;
+height: 258px;
+}
+
+/*pink chair*/
+
+.pink-chair__container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 220px;
+  margin-bottom: 202px;
+}
+
+.pink-chair__whitecard {
+  width: calc(40% - 40px);
+  background-color: #FAFAFA;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgba(183, 183, 183, 0.4);
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text__container {
+  width: 340px;
+}
+
+.pink-chair__text {
+  color: #FD7379;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 78px;
+  padding: 107px 0 62px;
+}
+
+.pink-chair__button {
+  background: linear-gradient(135deg, rgba(253, 115, 121, 0.9) 14.58%, #FEA3A7 100%);
+box-shadow: 0px 0px 15px rgba(253, 115, 121, 0.3);
+border-radius: 40px;
+padding: 10px 93px;
+color: white;
+font-size: 18px;
+line-height: 25px;
+font-weight: 600;
+text-decoration: none;
+}
+
+.pink-chair__button:hover {
+background: white;
+border: 3px solid #FD7379;
+color: #FD7379;
+}
+
+.pink-chair__pinkcard {
+  width: 60%;
+  background-color: #FFEAEB;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgba(183, 183, 183, 0.4);
+  height: 478px;
+  text-align: -webkit-center;
+}
+
+.pink-chair__image {
+position: relative;
+top: -30px;
+text-align: center;
+}
+
+/*rodapé*/
+
+footer {
+  background-image: url(imagens/footer.png);
+  width: 100%;
+  height: auto;
+}
+
+.footer__container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 87px;
+}
+
+.footer__logo {
+  display: flex;
+  margin-bottom: 71px;
+}
+
+.footer__logo-imagem {
+  width: 130px;
+}
+
+.footer__logo-nome {
+  color: #FD7379;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 49px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.footer__contato {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 49px;
+  color: #FD7379;
+  text-decoration: none;
+  display: block;
+}
+
+.footer__contato:hover {
+ color: black;
+}
+
+h6 {
+  color: #828282;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: right;
+  margin-bottom: 71px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  /*cabeçalho responsivo*/
+
+  header {
+    background-image: url(imagens/responsivo.png);
+    background-repeat: repeat-x;
+  }
+
+  .header__logo {
+    margin: 44px 0 62px;
+    justify-content: center;
+  }
+
+  .header__info-text {
+    width: 100%;
+  }
+
+  .header__text {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
+
+  .header__ilustracao {
+    width: 100%;
+    margin-top: 44px;
+  }
+
+  /*cards responsivo*/
+
+  .section__card {
+    width: 100%;
+    height: 186px;
+    margin-bottom: 66px;
+  }
+
+  .section__card-text {
+    font-size: 22px;
+  }
+
+  .section__card-image {
+    width: 131px;
+    height: auto;
+  }
+
+  /*pink chair responsivo*/
+
+.pink-chair__container {
+    margin-top: 128px;
+    margin-bottom: 129px;
+  }
+
+.pink-chair__whitecard {
+  width: 100%;
+  height: 319px;
+  margin-right: 0px;
+  margin-bottom: 56px;
+}
+
+.text__container {
+  width: 260px;
+}
+
+.pink-chair__text {
+  font-size: 50px;
+  line-height: 63px;
+  padding-top: 53px;
+}
+
+.pink-chair__pinkcard {
+  width: 100%;
+  height: 223px;
+}
+
+.pink-chair__image {
+  width: 143px;
+  top: -10px;
+}
+
+/*rodapé responsivo*/
+
+footer {
+  background-image: url(imagens/responsivofooter.png);
+  background-repeat: repeat-x;
+}
+
+.footer__container {
+  width: 80%;
+}
+
+.footer__logo {
+  justify-content: center;
+}
+
+.footer__logo-imagem {
+width: 80px;
+}
+
+.footer__logo-nome {
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.footer__contato {
+  text-align: center;
+}
+
+h6 {
+text-align: center;
+margin-top: 60px;
+}
+
+
+}
+
+
+
+
+
+
