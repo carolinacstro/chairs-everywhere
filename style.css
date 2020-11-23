@@ -15,7 +15,7 @@ font-family: "Mulish";
 
 header {
 background-image: url(imagens/Vector.png) ;
-background-repeat: no-repeat;
+background-repeat: repeat-x;
 width: 100%;
 height: auto;
 }
