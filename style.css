@@ -102,17 +102,17 @@ height: auto;
   display: flex;
 }
 
-#card-laranja {
+.card-laranja {
   background-color: #FFC385;
   color: #DD5E00;
 }
 
-#card-verde {
+.card-verde {
   background-color: #D5E1BF;
   color: #72972E;
 }
 
-#card-azul {
+.card-azul {
   background-color: #B3E0FF;
   color: #0477C6;
 }
