@@ -84,6 +84,7 @@ height: auto;
 
 .section__container-cards {
   width: 90%;
+  max-width: 1242px;
   height: auto;
   margin: auto;
   display: flex;
@@ -135,7 +136,6 @@ padding-bottom: 40px;
 }
 
 .section__card-button {
-  box-shadow: 0px 0px 15px rgba(221, 94, 0, 0.3);
   border-radius: 40px;
   padding: 10px 54px;
   color: white;
@@ -145,31 +145,34 @@ padding-bottom: 40px;
   text-decoration: none;
 }
 
-#button-laranja {
+.button-laranja {
   background: #DD5E00;
+  box-shadow: 0px 0px 15px rgba(221, 94, 0, 0.3);
 }
 
-#button-laranja:hover {
+.button-laranja:hover {
   background: white;
   border: 3px solid #DD5E00;
   color: #DD5E00;
 }
 
-#button-verde {
+.button-verde {
   background: #72972E;
+  box-shadow: 0px 0px 15px rgba(213, 225, 191, 0.3);
 }
 
-#button-verde:hover {
+.button-verde:hover {
   background: white;
   border: 3px solid #72972E;
   color: #72972E;
 }
 
-#button-azul {
+.button-azul {
   background: #0477C6;
+  box-shadow: 0px 0px 15px rgba(4, 119, 198, 0.3);
 }
 
-#button-azul:hover {
+.button-azul:hover {
   background: white;
   border: 3px solid #0477C6;
   color: #0477C6;
@@ -186,6 +189,7 @@ height: 258px;
 
 .pink-chair__container {
   width: 90%;
+  max-width: 1237px;
   height: auto;
   margin: auto;
   display: flex;
@@ -261,6 +265,7 @@ footer {
 
 .footer__container {
   width: 90%;
+  max-width: 1237px;
   height: auto;
   display: flex;
   justify-content: space-around;
